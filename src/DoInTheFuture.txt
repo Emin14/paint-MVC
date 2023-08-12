@@ -1,0 +1,21 @@
+Фигуры добавить в будущем как будет время
+Показывать выбранный цвет
+При выборе ластика потом заливает белым цветом
+
+
+
+
+// Функция для перевода RGBA в Hexlet
+// const rgbArray = color.slice(4, -1).split(',').map(item => Number(item))
+
+// function componentToHex(c) {
+//     var hex = c.toString(16);
+//     return hex.length == 1 ? "0" + hex : hex;
+// }
+
+// function rgb2hex(rgbArray) {
+//     return "#" + componentToHex(rgbArray[0]) + componentToHex(rgbArray[1]) + componentToHex(rgbArray[2]);
+// }
+
+
+// this.currentColor.value = rgb2hex(rgbArray)

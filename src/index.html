@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <canvas class="canvas"></canvas>
+        <div class="footer">
+                <p class="current-color-title">Текущий цвет</p>
+                <span  class="current-color"></span>
+                <p class="palitra-title">Цветовая палитра</p>
+                <ul class="palitra">
+                    <li class="color" id="p-0" style="background-color:rgb(251, 255, 2);"></li>
+                    <li class="color" id="p-1" style="background-color:rgb(255, 255, 255);"></li>
+                    <li class="color" id="p-2" style="background-color:rgb(220, 5, 249);"></li>
+                    <li class="color" id="p-3" style="background-color:rgb(9, 244, 63);"></li>
+                    <li class="color" id="p-4" style="background-color:rgb(248, 30, 5);"></li>
+                    <li class="color" id="p-5" style="background-color:rgb(5, 120, 252);"></li>
+                    <li class="color" id="p-6" style="background-color:rgb(165, 99, 45);"></li>
+                    <li class="color" id="p-7" style="background-color:rgb(9, 9, 9);"></li>
+                    <li class="color" id="p-8" style="background-color:rgb(7, 236, 248);"></li>
+                    <li class="color" id="p-9" style="background-color:rgb(245, 181, 5);"></li>
+                    <li class="color" id="p-10" style="background-color:rgb(166, 247, 4);"></li>
+                    <li class="color" id="p-11" style="background-color:rgb(251, 4, 95);"></li>
+                </ul>
+                <p  class="tools-title">Инстументы</p>
+                <div class="tools-wrapper">
+                    <div>
+                        <input class="thickness" type="range" min="1" max="70" value="5">
+                        <p>Толщина</p>
+                    </div>
+                    <div class="eraser">
+                        <div></div>
+                        <p>Ластик</p>
+                    </div>
+                    <div class="fill">
+                        <img src="https://img.icons8.com/ios/50/000000/fill-color.png" alt="">
+                        <p>Заливка</p>
+                    </div>
+                </div>
+                
+            <button class="restarting">Начать игру заново</button>
+        </div>
+
+    </div>
+
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
