@@ -139,6 +139,7 @@ ul, li {
     height: 50px;
     padding: 5px 10px;
     border-radius: 30px;
+    border: none;
     font-size: 22px;
     background-color: rgb(95, 95, 239);
     width: max-content;
@@ -150,4 +151,3 @@ ul, li {
     transform: scale(1.05, 1.05);
     transition: 0.3s;
 }
-

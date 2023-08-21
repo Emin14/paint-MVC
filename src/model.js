@@ -14,7 +14,6 @@ export default class Model {
 
 
     changeColor(event) {
-        console.log(event.target.style.backgroundColor)
         this.color = event.target.style.backgroundColor
     }
 

@@ -35,7 +35,7 @@ export default class Controller {
     }
 
     onFill() {
-        this.model.filling(this.view.backgroundColor)
+        this.model.filling()
         this.view.fillСolor(this.model.fill, this.model.color, this.model.filling())
     }
 

@@ -1,4 +1,4 @@
-export default class view {
+export default class View {
     constructor() {
         this.palitra = document.querySelector('.palitra')
         this.canvas = document.querySelector('.canvas')
@@ -26,7 +26,6 @@ export default class view {
     }
 
     drawLine (x, y, color, thickness) {
-        console.log(color)
         this.ctx.lineWidth = thickness
         this.ctx.strokeStyle = color
         this.ctx.lineTo(x, y);
@@ -37,7 +36,7 @@ export default class view {
         if(fill) {
             this.ctx.fillStyle = color;
             this.ctx.fill();
-            callback()
+            callback
         }
     }
 
@@ -48,7 +47,6 @@ export default class view {
     listenInput(callback) {
         this.thicknessInput.addEventListener('change', callback)
     }
-
 
 
     listenEraser(callback) {
@@ -65,7 +63,6 @@ export default class view {
 
 
     listenRestart(callback) {
-        console.log('эш am')
         this.restartbtn.addEventListener('click', callback) 
         }
 
@@ -76,4 +73,3 @@ export default class view {
     } 
 
 }
-
