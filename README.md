@@ -13,7 +13,7 @@ https://paint-mvc.vercel.app/
 
 <h5>Screenshot 1:</h5>
 
-![preview](https://user-images.githubusercontent.com/122212022/283178692-894d1bc7-2cbc-433d-993b-9fbf13e75352.jpg)
+![preview](https://user-images.githubusercontent.com/122212022/283181078-09002637-a976-45af-9630-528751371358.jpg)
 
 
 ## Run Locally
