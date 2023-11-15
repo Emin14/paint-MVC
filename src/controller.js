@@ -19,7 +19,6 @@ export default class Controller {
         this.view.drawLine(this.model.x, this.model.y, this.model.color, this.model.thickness, this.model.fill )
     }
 
-    // Почему нельзя в init напрямую написать this.model.changeColor(event)
     onColor(event) {
         this.model.changeColor(event);
         this.view.changeCurrentColor(this.model.color);
@@ -43,5 +42,4 @@ export default class Controller {
         this.model.clear()
         this.view.clearCanvas()
     }
-
 }

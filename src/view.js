@@ -71,5 +71,4 @@ export default class View {
         this.thicknessInput.value = 5 // Ничего что это значение статично. Если меняю дефолтное в HTML то и тут надо поменять
 
     } 
-
 }
